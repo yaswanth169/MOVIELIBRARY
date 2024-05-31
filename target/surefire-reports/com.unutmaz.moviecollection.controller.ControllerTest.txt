@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.unutmaz.moviecollection.controller.ControllerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14.273 s <<< FAILURE! - in com.unutmaz.moviecollection.controller.ControllerTest
+testFindMovieById  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: "The Shawshank Redemption"
+     but: was "KGF"
+	at com.unutmaz.moviecollection.controller.ControllerTest.testFindMovieById(ControllerTest.java:35)
+
+testFindMovies  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: <10>
+     but: was <2>
+	at com.unutmaz.moviecollection.controller.ControllerTest.testFindMovies(ControllerTest.java:28)
+

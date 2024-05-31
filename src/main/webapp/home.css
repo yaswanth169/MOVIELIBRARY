@@ -1,0 +1,76 @@
+/* CSS Reset */
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f7d7c1, #e8c8b9);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Content Styles for Home */
+.home-content {
+    max-width: 800px; /* Adjust based on your design */
+    padding: 20px; /* Adjust based on your design */
+    background-color: #ffffff; /* Background color for the main content */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 24px;
+    color: #333333; /* Dark color for headings */
+    margin-bottom: 20px; /* Spacing below heading */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666; /* Slightly lighter color for paragraphs */
+    margin-bottom: 15px; /* Spacing below paragraphs */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust based on your design */
+    background-color: #ff6347; /* Button background color */
+    color: #ffffff; /* Button text color */
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button:hover {
+    background-color: #ff7f50; /* Darker background color on hover */
+}
+
+/* Footer Styles */
+.footer {
+    margin-top: 20px; /* Spacing above footer */
+    text-align: center;
+    color: #999999; /* Light color for footer text */
+    font-size: 14px;
+}
+
+.footer a {
+    color: #999999; /* Links color */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

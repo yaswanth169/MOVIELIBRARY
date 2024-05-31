@@ -1,0 +1,111 @@
+/* CSS Reset */
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styles */
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f7d7c1, #e8c8b9);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px; /* Adjust based on your design */
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    background-color: #343a40;
+    border-radius: 0px 0px 10px 10px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.btn-dark:hover {
+    background-color: #555b62;
+}
+
+/* Footer Styles */
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+}
